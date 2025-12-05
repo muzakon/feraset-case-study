@@ -36,6 +36,8 @@ R2_REGION="CLOUDFLARE_R2_STORAGE_REGION"
 I recommend to use my credentials i shared by visiting the following Notion document.
 https://www.notion.so/Credentials-2c0ae52f6a0e8060b2faefdfab81e715
 
+Note: If you decide to clone my backend code and deploy functions, you MUST update the `WEBHOOK_URL` with your new `on_callback` function URL. I have not created an internal VPC, so my function is Public. I suggest you to make your callback function Public to test easier.
+
 You are ready to start React Native app now. Visit `frontend` folder and use `npm run start` or `yarn start` to start the app.
 
 ## 2. Architecture
