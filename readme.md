@@ -42,6 +42,12 @@ You are ready to start React Native app now. Visit `frontend` folder and use `np
 
 ## 2. Architecture
 
+- I added failure by 30% chance.
+- I added R2 from Cloudflare to Storage images.
+- I simulated callback & webhook.
+- I added Github Actions for Frontend & Backend.
+- I added Maestro only for local development. I will bind it to Actions soon.
+
 #### - 2.1. Backend (Cloud Functions)
 
 - I have two functions. `on_generation_created` and `on_callback` (I simulated a callback like a real-world application as you mentioned in case-study.)
