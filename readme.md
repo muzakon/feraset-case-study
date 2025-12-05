@@ -46,7 +46,7 @@ You are ready to start React Native app now. Visit `frontend` folder and use `np
 - I added R2 from Cloudflare to Storage images.
 - I simulated callback & webhook.
 - I added Github Actions for Frontend & Backend.
-- I added Maestro only for local development. Its not binded to Github Actions.
+- I added Maestro only for testing on local. Its not binded to Github Actions.
 
 #### - 2.1. Backend (Cloud Functions)
 
