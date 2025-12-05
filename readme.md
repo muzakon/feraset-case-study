@@ -110,6 +110,7 @@ M --> B
 ## 3. Changes I made && Assumptions
 
 - I created a Google Cloud Task queue which is not mentioned in your case-study.
+- I used simple prints for logging errors etc. in Cloud Functions. It annoys me but otherwise I need to install GCP's Logging libraries etc. I'd to it in real-world application to make logs seem like in real log structure.
 - I created an X button at right most of prompt area's counter, since its not shown in Figma but added to template. This button resets user's prompt.
 - I added Pydantic for .env management in Cloud Functions.
 - I created a method called "is_failed" in my Python code. This method decides randomly if the generation is done or failed. By default, its failed by 30% chance.
